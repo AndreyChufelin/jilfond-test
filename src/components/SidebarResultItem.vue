@@ -9,7 +9,7 @@ defineProps({
 </script>
 
 <template>
-  <RouterLink class="item" :to="{name:'user',params: {id: id}}">
+  <RouterLink class="item" :to="{ name: 'user', params: { id: id } }">
     <img class="image" src="../assets/img.png" alt="" />
     <div class="body">
       <div class="name">{{ username }}</div>
@@ -51,6 +51,6 @@ defineProps({
   text-overflow: ellipsis;
 }
 .router-link-active .body {
-  background-color: #E0E0E0;
+  background-color: #e0e0e0;
 }
 </style>

@@ -1,9 +1,9 @@
 <script setup>
 import { computed, ref } from 'vue'
 import { useStore } from 'vuex'
+import VueSpinner from './VueSpinner.vue'
 import SidebarSearch from './SidebarSearch.vue'
 import SidebarResultItem from './SidebarResultItem.vue'
-import VueSpinner from './VueSpinner.vue'
 
 const store = useStore()
 const users = computed(() => store.state.users.users)

@@ -14,4 +14,9 @@
 .page {
   width: 100%;
   padding: 30px 20px;
+  overflow-y: scroll;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }
